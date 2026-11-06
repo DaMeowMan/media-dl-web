@@ -1,0 +1,21 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: media-dl-web
+Label: media-dl-web
+Suite: stable
+Codename: stable
+Architectures: all
+Components: main
+Description: media-dl-web apt repository
+Date: Fri, 06 Nov 2026 00:24:30 GMT
+SHA256:
+ b3d28c40d277c1bf4dc06fd2766c1b7a901ce93ee09880e13a717876ac93c2f2             1170 main/binary-all/Packages
+ 2461b3830d2e37430c65c4c2908556ce69183408053545295167c7993d6ca199              732 main/binary-all/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYIAB0WIQRScYIE8Mltd0crP0wOrtnQrqZh3gUCau0ePgAKCRAOrtnQrqZh
+3iMBAP9pr8jTecIrXX+aRwYpnzAVbHoxnW4qq5E+Xym+ouPwoAD9GYeufo4ojOUZ
+47wje/N7KjuJH0Q5bd98ZYRgIjG4rwY=
+=2sQh
+-----END PGP SIGNATURE-----
