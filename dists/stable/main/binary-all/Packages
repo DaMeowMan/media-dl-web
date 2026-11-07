@@ -21,3 +21,29 @@ Description: Browser UI for yt-dlp and gallery-dl with a fullscreen player
  .
  Independent of the Tk package "media-dl": own command (media-dl-web), own
  files under /opt/media-dl-web, own systemd service and port (8765).
+
+Package: media-dl-web
+Version: 1.1.6
+Architecture: all
+Maintainer: Media-DL Web <media-dl-web@localhost>
+Installed-Size: 272
+Filename: pool/main/m/media-dl-web/media-dl-web_1.1.6_all.deb
+Size: 120832
+MD5sum: 97b2622b79aa3d39ff2bb546566753d1
+SHA1: ae2c55eb82b5b09ee71cd49d07dde8375293f516
+SHA256: 399e546e9b39bab1de18a6a3ecd0c29123434f46319783d4d5c39cb5efb6d11f
+Depends: python3 (>= 3.9), python3-venv, python3-pip, wget, curl, ca-certificates, openssl, ffmpeg, atomicparsley, aria2
+Recommends: uv, systemd, xdg-utils, nodejs, rtmpdump
+Section: net
+Priority: optional
+Description: Browser UI for yt-dlp and gallery-dl with a fullscreen player
+ Download videos with yt-dlp and images with gallery-dl from a web page, pick
+ extractors, watch anything in the browser (files the browser cannot decode are
+ transcoded on the fly by ffmpeg and played with hls.js), and update yt-dlp,
+ gallery-dl and hls.js with one click. Served over HTTPS (self-signed
+ certificate), optional proxy, yt-dlp plugins, Kemono/Coomer through gallery-dl.
+ The first visit creates the login (HTTP basic auth over HTTPS afterwards).
+ .
+ Separate from the Tk program media-dl. Command: media-dl-web. Files live
+ under /opt/media-dl-web. systemd unit media-dl-web.service, port 8765,
+ reachable on all network interfaces.
